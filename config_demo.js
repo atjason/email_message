@@ -1,5 +1,7 @@
 const config = {
-  secret: 'SECRET',
+  secretList: [
+    'SECRET'
+  ],
   email: {
     host: "smtp.gmail.com",
     port: 465,

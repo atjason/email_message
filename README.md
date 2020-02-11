@@ -1,12 +1,18 @@
-Use GET/POST to send mail.
+## Why create such project?
 
-## Run the Project
+In multi-projects, I need to send email to notify me the status of the project, e.g., critical error.
+
+It's boring to duplicated implementing the feature to send email, and it's difficult to do it in some platform. 
+
+Thus I create this project. It provides the ability to send email, and client could use `GET`/`POST` to send mail.
+
+## Run the project
 
 - `npm i`, of course.
 - Copy `config_demo.js` to `config_.js`, and update the content.
 - `node lib`
 
-## Deploy the Project
+## Deploy the project
 
 After `Run the Project`, it's running locally. Of course you want to deploy it in the internet. You need:
 
